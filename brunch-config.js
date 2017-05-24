@@ -10,8 +10,15 @@ exports.files = {
 };
 
 exports.plugins = {
-  babel: {presets: ['latest']}
+  babel: {presets: ['latest']},
+  copycat:{
+        "fonts" : ["app/fonts/"],
+        "images": [],
+        verbose : true, //shows each file that is copied to the destination directory
+        onlyChanged: true //only copy a file if it's modified time has changed (only effective when using brunch watch)
+      }
 };
+
 exports.npm = {
     enabled: true,
     styles: {

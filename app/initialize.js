@@ -32,6 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
    // <!-- Revolutions slider -->
-  //  <script type="text/javascript" src="assets/revolution-slider/js/jquery.themepunch.plugins.min.js"></script>
-  //  <script type="text/javascript" src="assets/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+ require("js/jquery.themepunch.plugins.min.js")
+ require("js/jquery.themepunch.revolution.min.js")
 });
