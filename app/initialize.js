@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // do your setup here
   console.log('Initialized app');
+  require('js/HomeController');
 //  require('js/classie.js');
 //  require('js/bootstrap.min.js');
 //
