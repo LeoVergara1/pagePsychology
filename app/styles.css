@@ -4,3 +4,23 @@
   font-size: 24pt;
   color: #3f894a;
 }
+#bg-base-1{
+
+  background:#0db7d3;
+}
+.bg-base-1{
+
+  background:#0db7d3;
+}
+.containerService {
+  margin-top:20px;
+}
+.radius {
+  width: 450;
+}
+.radius-img {
+  border: 2px solid #0db7d3;
+  width: 400px;
+  border-radius: 25px;
+}
+

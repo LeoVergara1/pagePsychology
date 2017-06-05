@@ -40,6 +40,7 @@
          <!-- CONFIG BRUNCH -->
         <script src="vendor.js"></script>
         <script src="app.js"></script>
+        <link rel="stylesheet" href="app.css" type="text/css">
         <script>require('initialize');</script>
 
     </head>
@@ -91,13 +92,13 @@
 
                                                 <!-- Navbar links -->
                                                 <li id="home">
-                                                    <a  >
+                                                    <a tabindex="-1" href="index.html" >
                                                         <span>Inicio</span>
                                                     </a>
                   
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                    <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">
                                                         <span>Servicios</span>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -105,7 +106,7 @@
                                                             <a tabindex="-1">Atención a Dificultades de Aprendizaje</a>
                                                         </li>
                                                         <li class="dropdown dropdown-submenu">
-                                                            <a tabindex="-1" href="#">Evaluaciones Psicométricas</a>
+                                                            <a tabindex="-1" href="services.html">Evaluaciones Psicométricas</a>
                                                         </li>
                                                         <li class="">
                                                             <a tabindex="-1" href="search-results-1.html">Terapia Infantil<span class="label bg-base-1 pull-right">New</span></a>
@@ -123,13 +124,13 @@
                                                 </li>
 
                                                 <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                    <a tabindex="-1" href="contact.html">
                                                         <span>Contacto</span>
                                                             </a>
                                                         </li>
 
                                                 <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                    <a tabindex="-1" href="index.html">
                                                         <span>Nosotros</span>
                                                     </a>
                                                 </li>
@@ -316,7 +317,7 @@
                                 </div>
                             </div>
                             <!-- CALL TO ACTION -->
-                            <section class="bg-base-1">
+                            <section class="bg-base-1" id="bg-base-1">
                                 <div class="cta-wrapper">
                                     <div class="container">
                                         <div class="row v-align-middle">
@@ -887,145 +888,12 @@
                             </section>
 
                             <!-- BLOG SECTION -->
-                            <section class="slice sct-color-1 bb sht-1">
-                                <div class="container">        
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="section-title-wrapper style-2 v1">
-                                                <h3 class="section-title left">
-                                                    <span class="text-caps">From the blog</span>
-                                                </h3>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="block article list style-1">
-                                                        <div class="article-image">
-                                                            <img src="images/prv/shop/fashion/post-img-1.jpg">                                 
-                                                        </div>
-                                                        <div class="block-body right">
-                                                            <h3 class="title">
-                                                                <a href="#">React to the future with isomorphic apps</a>
-                                                            </h3>
-                                                            <span class="article-info">
-                                                                Posted by <a href="#">David Wally</a> on January 03, 2015
-                                                            </span>
-                                                            <p class="article-text">
-                                                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
-                                                                voluptatum deleniti atque.
-                                                            </p>
-
-                                                            <ul class="meta-info-cells v4 float-wrapper" style="margin-top: 20px;">
-                                                                <li><i class="fa fa-comments-o"></i> <a href="#">23 <span class="hidden-xs hidden-sm">comments</span></a></li>
-                                                                <li><i class="fa fa-share-alt"></i> <a href="#">199 <span class="hidden-xs hidden-sm">shares</span></a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="block article list style-1">
-                                                        <div class="article-image">
-                                                            <img src="images/prv/shop/fashion/post-img-2.jpg">
-                                                        </div>
-                                                        <div class="block-body right">
-                                                            <h3 class="title">
-                                                                <a href="#">The current state of e-commerce filtering</a>
-                                                            </h3>
-                                                            <span class="article-info">
-                                                                Posted by <a href="#">Darby Jewell</a> on January 13, 2015
-                                                            </span>
-                                                            <p class="article-text">
-                                                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
-                                                                voluptatum deleniti atque.
-                                                            </p>
-
-                                                            <ul class="meta-info-cells v4 float-wrapper" style="margin-top: 20px;">
-                                                                <li><i class="fa fa-comments-o"></i> <a href="#">23 <span class="hidden-xs hidden-sm">comments</span></a></li>
-                                                                <li><i class="fa fa-share-alt"></i> <a href="#">199 <span class="hidden-xs hidden-sm">shares</span></a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-
+                      |
                             <!-- CLIENTS -->
              
                             <!-- FOOTER -->
-                            <footer class="footer style-2">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="col">
-                                                <img src="images/logo/logo-1-a.png">
-
-                                                <p class="no-margin">
-                                                    Easy to work with, easy to customize and unlimited ideas that can be implemented in your project are just a few attributes that recommend Visio to be one of the most complete template.
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-2">
-                                            <div class="col">
-                                                <h4>Help and Support</h4>
-                                                <ul>
-                                                    <li><a href="" title="Help center">Help center</a></li>
-                                                    <li><a href="" title="Discussions">Discussions</a></li>
-                                                    <li><a href="" title="Contact support">Contact support</a></li>
-                                                    <li><a href="" title="Blog">Blog</a></li>
-                                                    <li><a href="" title="Jobs">FAQ</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-2">
-                                            <div class="col">
-                                                <h4>Company</h4>
-                                                <ul>
-                                                    <li><a href="" title="About">About</a></li>
-                                                    <li><a href="" title="License informations">License informations</a></li>
-                                                    <li><a href="" title="Terms">Terms</a></li>
-                                                    <li><a href="" title="Jobs">Careers</a></li>
-                                                    <li><a href="" title="Jobs">Contact</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-2">
-                                            <div class="col">
-                                                <h4>Community</h4>
-                                                <ul>
-                                                    <li><a href="" title="About">About</a></li>
-                                                    <li><a href="" title="License informations">License informations</a></li>
-                                                    <li><a href="" title="Terms">Terms</a></li>
-                                                    <li><a href="" title="Jobs">Jobs</a></li>
-                                                    <li><a href="" title="Jobs">Jobs</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-3">
-                                            <div class="col">
-                                                <h4>Stay updated</h4>
-                                                <p>Sign up if you would like to receive the newest updates and other free goods.</p>
-                                                <form class="form-horizontal form-dark">
-                                                    <div class="input-group">
-                                                        <input type="text" class="form-control" placeholder="Your email address">
-                                                        <span class="input-group-btn">
-                                                            <button class="btn btn-base-1" type="button">Go</button>
-                                                        </span>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </footer>
-
-                            <div class="copyright style-1">
+                          
+                            <div class="copyright style-4">
                                 <div class="container">   
                                     <div class="div-table v-middle">
                                         <div class="cell">
