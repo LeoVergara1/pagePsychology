@@ -1,6 +1,6 @@
 var map;
-var x=51.5255069;
-var y=-0.1834507;
+var x=19.5243272;
+var y=-99.1444507;
 
 
 function initialize() {
@@ -29,7 +29,11 @@ function initialize() {
   });
 
   console.log("Estoy aaa");
-  $("body").on('click',"#contact1", function (e){ x=60; y=0.1; console.log("presiono"); initialize();  } )
+  $("body").on('click',"#contact1", function (e){ x=19.5243272; y=-99.1443014; console.log("presiono"); initialize();  } )
+  $("body").on('click',"#contact2", function (e){ x=19.4146859; y=-99.1615852; console.log("presiono"); initialize();  } )
+  $("body").on('click',"#contact3", function (e){ x=19.4314748; y=-99.1557485; console.log("presiono"); initialize();  } )
+  $("body").on('click',"#contact4", function (e){ x=19.4156885; y=-99.1567104; console.log("presiono"); initialize();  } )
+  $("body").on('click',"#contact5", function (e){ x=19.3404632; y=-99.1986913; console.log("presiono"); initialize();  } )
 
   google.maps.event.addListener(marker, 'click', function() {
     infowindow.open(map,marker);

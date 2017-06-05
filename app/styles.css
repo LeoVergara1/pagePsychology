@@ -20,8 +20,13 @@
   width: 450;
 }
 .radius-img {
+
   border: 2px solid #0db7d3;
   width: 400px;
   border-radius: 25px;
+}
+
+.cursor{
+  cursor:pointer;
 }
 
