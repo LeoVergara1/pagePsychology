@@ -29,4 +29,11 @@
 .cursor{
   cursor:pointer;
 }
+.modal-backdrop{
+
+}
+
+.mask.mask-3.v1 {
+  background: rgb(13, 183, 211);
+}
 
