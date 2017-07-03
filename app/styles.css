@@ -55,10 +55,16 @@ h1 h2 h3 h4 > a {
 #cirlce{
 
 }
+.textHead {
+  text-align:center;
+
+}
 
 @media only screen and (max-width: 621px) {
  #cirlce {
  display: none;
 }
-
+#layerOne {
+  data-x: 100;
+}
 }
