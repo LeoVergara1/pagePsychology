@@ -16,6 +16,11 @@ class HomeController
 
 
   size:(e) ->
+    if $(window).width() < 600
+     $("#layerOne").data("x", 100)
+     $("#layerTwo").data("x", 360)
+     $("#layerThree").data("x", 640)
+
     window.onresize = (e) ->
       console.log $(window).width()
       if $(window).width() < 600
