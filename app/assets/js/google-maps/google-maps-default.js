@@ -1,6 +1,6 @@
 var map;
-var x=19.5243272;
-var y=-99.1444507;
+var x=19.4227664;
+var y=-99.1652964;
 
 
 function initialize() {
@@ -29,7 +29,7 @@ function initialize() {
   });
 
   console.log("Estoy aaa");
-  $("body").on('click',"#contact1", function (e){ x=19.5243272; y=-99.1443014; console.log("presiono"); initialize();  } )
+  $("body").on('click',"#contact1", function (e){ x=19.4227664; y=-99.1652964; console.log("presiono"); initialize();  } )
   $("body").on('click',"#contact2", function (e){ x=19.4146859; y=-99.1615852; console.log("presiono"); initialize();  } )
   $("body").on('click',"#contact3", function (e){ x=19.4314748; y=-99.1557485; console.log("presiono"); initialize();  } )
   $("body").on('click',"#contact4", function (e){ x=19.4156885; y=-99.1567104; console.log("presiono"); initialize();  } )
